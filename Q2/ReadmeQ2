@@ -1,0 +1,15 @@
+Files
+    Hw3_test.txt
+        - Text file of the test sentences for the program
+
+    Q2.py
+        - Uses a NER tool that was trained in order to predict NEs on the sentences given in HW3_test.txt
+
+        - How to run:
+            * To run the program have HW3_test.txt be in the same directory as Q2.py and run Q2.py
+
+            * The program will go through each sentence from the Hw3_test.txt file and use the NER tool. For each sentence
+              a window will pop up displaying a sentence tree of each word in the sentence along with their POS tag and NE
+              tag if it has any. The console will also display the same information that is in the sentence tree. To move
+              on to the next sentence click the close button on the pop up window. Repeat the process for the rest of the
+              sentences and observe the predictions of NE on the given sentences.
